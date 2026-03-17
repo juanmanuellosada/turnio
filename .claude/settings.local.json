@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd:*)",
+      "Bash(npm config:*)",
+      "Bash(echo:*)",
+      "Read(//c/Users/A05750/OneDrive - Banco Hipotecario/Escritorio/**)",
+      "Bash(npx create-next-app@latest turnio-temp --typescript --tailwind --app --src-dir --import-alias \"@/*\" --eslint --no-turbopack --yes)",
+      "Bash(TURNIO=\"C:\\\\Users\\\\A05750\\\\OneDrive - Banco Hipotecario\\\\Escritorio\\\\turnio\" && TEMP=\"C:\\\\Users\\\\A05750\\\\OneDrive - Banco Hipotecario\\\\Escritorio\\\\turnio-temp\" && cp -r \"$TEMP\"/src \"$TURNIO\"/ && cp -r \"$TEMP\"/public \"$TURNIO\"/ && cp \"$TEMP\"/package.json \"$TURNIO\"/ && cp \"$TEMP\"/tsconfig.json \"$TURNIO\"/ && cp \"$TEMP\"/next.config.ts \"$TURNIO\"/ && cp \"$TEMP\"/next-env.d.ts \"$TURNIO\"/ && cp \"$TEMP\"/postcss.config.mjs \"$TURNIO\"/ && cp \"$TEMP\"/.gitignore \"$TURNIO\"/ && cp \"$TEMP\"/eslint.config.mjs \"$TURNIO\"/ && cp -r \"$TEMP\"/node_modules \"$TURNIO\"/ && cp -r \"$TEMP\"/.next \"$TURNIO\"/ 2>/dev/null; rm -rf \"$TEMP\" && echo \"DONE\")",
+      "Bash(cat:*)"
+    ]
+  },
+  "enabledMcpjsonServers": [
+    "neon",
+    "github",
+    "context7",
+    "puppeteer"
+  ]
+}
